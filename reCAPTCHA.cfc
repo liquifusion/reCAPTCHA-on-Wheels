@@ -20,7 +20,7 @@
 		<!--- If we have Internet access, continue with test --->
 		<cfif useReCaptcha()>
 			<cftry>
-				<cfhttp url="#application.reCaptcha.verifyUrl#" result="loc.cfhttp" method="post" timeout="5" throwonerror="true">
+				<cfhttp url="http://api-verify.recaptcha.net/verify" result="loc.cfhttp" method="post" timeout="5" throwonerror="true">
 					<cfhttpparam type="formfield" name="privatekey" value="#application.reCaptcha.privateKey#">
 					<cfhttpparam type="formfield" name="remoteip" value="#cgi.remote_addr#">
 					<cfhttpparam type="formfield" name="challenge" value="#arguments.challengeField#">
