@@ -4,7 +4,7 @@
 	
 	<cffunction name="init" hint="Constructor.">
 	
-		<cfset this.version = "1.0">
+		<cfset this.version = "1.1">
 		<cfreturn this>
 	
 	</cffunction>

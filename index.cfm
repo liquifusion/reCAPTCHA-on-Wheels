@@ -4,7 +4,7 @@
 
 <cfinclude template="css.cfm">
 
-<h1>reCAPTCHA on Wheels</h1>
+<h1>reCAPTCHA on Wheels v1.1</h1>
 <p>With 2 simple functions, you can use Google's <a href="http://recaptcha.net/">reCAPTCHA</a> service to provide a <acronym title="Completely Automated Turing Test To Tell Computers and Humans Apart">CAPTCHA</acronym> validation to your forms. reCAPTCHA is unique in that users solving the <acronym title="Completely Automated Turing Test To Tell Computers and Humans Apart">CAPTCHA</acronym>s are helping universities and services like Google Book Search scan words from books that weren't picked up properly by <abbr title="Optical Character Recognition">OCR</abbr> technology.</p>
 
 <h2>How to Use</h2>
